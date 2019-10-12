@@ -3,9 +3,9 @@ FROM selenium/standalone-firefox:latest
 ENV MAVEN_VERSION 3.3.3
 ENV DISPLAY :99
 
-USER root
+USER root chandu
 
-RUN apt-get update -qqy \
+RUN apt-get update -qqy \  
   && apt-get install -y openjdk-8-jdk && \  
   rm -rf /var/lib/apt/lists/*
 
