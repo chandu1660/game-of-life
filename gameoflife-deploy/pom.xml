@@ -5,7 +5,7 @@
         <artifactId>gameoflife</artifactId>
         <groupId>com.wakaleo.gameoflife</groupId>
         <version>0.0.56-SNAPSHOT</version>
-    </parent>
+    </parent>fsfsddfsdf
     <groupId>com.wakaleo.gameoflife</groupId>
     <artifactId>gameoflife-deploy</artifactId>
     <packaging>pom</packaging>
