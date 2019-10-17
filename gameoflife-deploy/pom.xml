@@ -9,7 +9,7 @@
     <groupId>com.wakaleo.gameoflife</groupId>
     <artifactId>gameoflife-deploy</artifactId>
     <packaging>pom</packaging>
-    <build>
+    <build>  
         <plugins>
             <plugin>
                 <groupId>org.codehaus.cargo</groupId>
