@@ -7,7 +7,7 @@ target
 .checkstyle
 .pmd
 *.log
-*.log.*
+*.log.*hbkkjkj
 *.iml  
 *.ipr
 *.iws
