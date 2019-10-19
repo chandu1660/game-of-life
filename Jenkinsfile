@@ -11,10 +11,22 @@ pipeline{
     steps{
     sh 'mvn package'
     }    
-    } 
-
-}	
-    }   
+    }
+   stage(image creation){
+    steps{
+	
+	docker build -t chandu:1.0 .
+	}
+	}
+	 stage(container creation){
 	 
-
-
+	 steps{
+	 
+	 docker run -d -p 8082:8080 chandu
+	 }
+	 
+	 }
+	 
+	 }
+	}   
+   	   
