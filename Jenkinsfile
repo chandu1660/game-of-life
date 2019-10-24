@@ -15,7 +15,6 @@ stage('image'){
 steps{
 docker build -t mage:1.0 .
 }
-	
 }
 stage('container'){
 steps{
@@ -24,3 +23,5 @@ docker run -d -p 8081:8080 mage
 }
 }
 }
+
+
