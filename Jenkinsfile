@@ -15,6 +15,7 @@ stage('image'){
 steps{
 docker build -t mage:1.0 .
 }
+	
 }
 stage('container'){
 steps{
