@@ -1,5 +1,5 @@
-sonar.projectKey=mani1
-sonar.projectName=mani1
+sonar.projectKey=devlop
+sonar.projectName=devlop
 sonar.projectVersion=1.0
 sonar.login=admin
 sonar.password=admin
